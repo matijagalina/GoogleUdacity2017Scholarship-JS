@@ -2,7 +2,6 @@
  * Programming Quiz: Facebook Friends (7-5)
  */
 
-// your code goes here
 var facebookProfile = {
     name : "Matija Galina",
     friends : 100,
