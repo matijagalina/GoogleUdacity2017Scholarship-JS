@@ -2,7 +2,7 @@
  * Programming Quiz: Bank Accounts 1 (7-3)
  */
 
-var savingsAccount = {
+let savingsAccount = {
     balance: 1000,
     interestRatePercent: 1,
     deposit: function addMoney(amount) {
