@@ -3,8 +3,12 @@
  */
 
 // calculate the factorial of 12
-var factorial = 12;
-for (i = 11; i >=1; i--) {
-    factorial *= i;
+
+function factorialize(num) {
+  for (fact = 1; num >=1; num--) {
+    fact *= num;
+  }
+  return fact;
 }
-console.log(factorial);
+
+factorialize(12);
